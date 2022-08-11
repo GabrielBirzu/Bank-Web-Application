@@ -1,0 +1,977 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: Roboto;
+}
+
+.background {
+    background-image: url('../Media/Login/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.background_password {
+    background-image: url('../Media/Login/Background_Password.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+div .divLogo {
+    position: fixed;
+    left: 150px;
+    top: 200px;
+    text-align: center;
+}
+
+div .divTimer {
+    position: fixed;
+    left: 400px;
+    top: 200px;
+    text-align: center;
+}
+
+.imgLogo {
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrongLbl {
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    bottom: 10px;
+    color: red;
+}
+
+
+#idLogare, #parolaLogare {
+    border-radius: 20px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    border-spacing: 0px;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.2);
+    outline-width: 0;
+    font-size: 15px;
+}
+
+#txtNume, #txtPrenume, #txtCNP, #txtCodSecuritate, #txtCodEmail, #txtParolaNoua, #txtVerificareParolaNoua {
+    border-radius: 20px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    border-spacing: 0px;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.2);
+    outline-width: 0;
+    font-size: 15px;
+}
+
+#btnRevenire, #btnContinuare, #btnFinalizareSchimbareParola {
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+    position: absolute;
+    font-weight: bold;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    background-color: #2D496A;
+    color: white;
+}
+
+#btnFinalizareSchimbareParola {
+    top: 200px;
+    left: 0px;
+    width: 100%;
+}
+
+#btnRevenire {
+    top: 340px;
+    left: 8px;
+    width: 40%;
+}
+
+#btnContinuare {
+    top: 340px;
+    left: 160px;
+    width: 40%;
+}
+
+#lblEroareDateParolaNoua {
+    left: 90px;
+    top: 180px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#lblEroareDate {
+    left: 165px;
+    top: 320px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#imgCodSecuritate {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    border-radius: 13px;
+    display: flex;
+}
+
+#btnGenerareCod {
+    width: 60%;
+    height: 30px;
+    border: none;
+    bottom: 10px;
+    position: relative;
+    font-weight: 500;
+    font-family: Roboto;
+    outline-width: 0;
+    background: none;
+    color: #2D496A;
+}
+
+#hlRecuperareParola {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#butonLogare {
+    border-radius: 5px;
+    border: 0px;
+    width: 60%;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    background-color: #2D496A;
+    color: white;
+}
+
+#formLogare {
+    position: relative;
+    top: 60px;
+}
+
+.mesajIntampinare {
+    position: relative;
+    top: 40px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #2D496A;
+}
+
+div .divCopyright {
+    font-size: 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+}
+
+
+/*
+ * 2nd page
+*/
+
+.second_background {
+    background-image: url(../Media/Second_Page/second_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.first_container {
+    background-color: rgba(255,255,255,0.3);
+    margin-left: 120px;
+    margin-top: 100px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 350px;
+    height: 700px;
+    border: 1px;
+    position: fixed;
+}
+
+#acasa {
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    outline-width: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #2D496A;
+    color: white;
+}
+
+/*
+ * Poza de profil - start
+*/
+
+.profilePhoto {
+    height: 99px;
+    width: 99px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0px;
+}
+
+#file {
+    display: none;
+}
+
+#chooseBtn {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    line-height: 30px;
+    font-family: sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    display: none;
+    border: 0px;
+}
+
+#saveBtn {
+    top: 9.5%;
+    left: 50%;
+    height: 30px;
+    width: 100%;
+    border: 0px;
+    position: absolute;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#photo {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+ * Poza de profil - sfarsit
+*/
+
+#accountDl {
+    position: absolute;
+    width: 80%;
+    height: 5%;
+    left: 50%;
+    top: 20px;
+    border: 0px;
+    border-radius: 20px;
+    outline: 0px;
+    transform: translateX(-50%);
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) silver 245px center no-repeat;
+    background-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+#nameLbl {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border: 0px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+/*
+ * Navigation Menu
+*/
+
+.maineMenu {
+    position: absolute;
+    top: 40%;
+    z-index: 950;
+}
+
+ul#navMenu, ul.nav1, ul.nav2, ul.nav3, ul.nav4, ul.nav5 {
+    list-style-type: none;
+}
+
+
+ul#navMenu ul.nav1 {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 350px;
+}
+
+ul#navMenu li:hover .nav1, ul#navMenu li:hover .nav2, ul#navMenu li:hover .nav3, ul#navMenu li:hover .nav4, ul#navMenu li:hover .nav5  {
+    display: block;
+}
+
+ul#navMenu ul.nav2 {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+ul#navMenu ul.nav3 {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+
+ul#navMenu ul.nav4 {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+ul#navMenu ul.nav5 {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+
+#firstBtn {
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    border-left: none;
+    border-right: none;
+    border-top: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    background: url(../Media/Second_Page/Icons/conturi.png) silver 35px center no-repeat;
+    background-size: 20px;
+}
+
+#secondBtn {
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    border-left: none;
+    border-right: none;
+    border-top: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    background: url(../Media/Second_Page/Icons/depozit.png) silver 35px center no-repeat;
+    background-size: 20px;
+}
+
+#thirdBtn {
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    border-left: none;
+    border-right: none;
+    border-top: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    background: url(../Media/Second_Page/Icons/transaction_icon.png) silver 35px center no-repeat;
+    background-size: 20px;
+}
+
+#fourthBtn {
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    border-left: none;
+    border-right: none;
+    border-top: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    background: url(../Media/Second_Page/Icons/carduri.png) silver 35px center no-repeat;
+    background-size: 20px;
+}
+
+#fifthBtn {
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    border-left: none;
+    border-right: none;
+    border-top: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    background: url(../Media/Second_Page/Icons/imprumut.png) silver 35px center no-repeat;
+    background-size: 20px;
+}
+
+#sixthBtn {
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    padding-left: 80px;
+    border-left: none;
+    border-right: none;
+    border-top: 0.5px solid #D9D9D9;
+    border-bottom: 0.5px solid #D9D9D9;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    background: url(../Media/Second_Page/Icons/chart.png) silver 35px center no-repeat;
+    background-size: 20px;
+}
+
+#firstBtn1, #firstBtn2, #firstBtn3, #secondBtn1, #secondBtn2, #thirdBtn1, #thirdBtn2, #thirdBtn3, #thirdBtn4, #thirdBtn5, #fourthBtn1, #fourthBtn2, #fifthBtn1, #fifthBtn2 {
+    width: 250px;
+    height: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background-color: #adadad;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+#firstBtn1, #secondBtn1, #thirdBtn1, #fourthBtn1, #fifthBtn1 {
+    border-top-right-radius: 10px;
+}
+
+#firstBtn3, #secondBtn2, #thirdBtn5, #fourthBtn2, #fifthBtn2 {
+    border-bottom-right-radius: 10px;
+}
+
+#firstBtn:hover, #firstBtn1:hover, #firstBtn2:hover, #firstBtn3:hover, #secondBtn:hover, #secondBtn1:hover, #secondBtn2:hover, #thirdBtn:hover, #thirdBtn1:hover, #thirdBtn2:hover, #fourthBtn:hover, #fourthBtn1:hover, #fourthBtn2:hover {
+    background-color: rgba(230,230,230);
+}
+
+#thirdBtn3:hover, #thirdBtn4:hover, #thirdBtn5:hover, #fifthBtn:hover, #fifthBtn1:hover, #fifthBtn2:hover, #sixthBtn:hover {
+    background-color: rgba(230,230,230);
+}
+
+/*
+ * Second Container
+*/
+
+.second_container {
+    background-color: rgba(255,255,255,0.3);
+    margin-left: 400px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 1070px;
+    height: 700px;
+    border: 1px;
+    position: absolute;
+    z-index: 900;
+}
+
+.personal_details {
+    background-color: rgba(113,131,140,0.3);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 199px;
+    position: absolute;
+    z-index: 900;
+}
+
+#txtSold {
+    top: 69.5px;
+    left: 80px;
+    border-radius: 20px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 100px;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255, 0);
+    pointer-events: none;
+    color: darkslategray;
+}
+
+#txtValuta {
+    top: 122.5px;
+    left: 80px;
+    border-radius: 20px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 100px;
+    height: 22px;
+    text-align: center;
+    position: absolute;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255, 0);
+    pointer-events: none;
+    color: darkslategray;
+}
+
+
+/*
+ * Data container
+*/
+
+.data_container {
+    background-color: rgba(255,255,255,0);
+    top: 200px;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+#lblTitlu, #lblTitluDepozite, #lblDeschidereDepozitNou, #lblVizualizareCarduri, #lblVizualizareCardDebit, #lblVizualizareCardCredit, #lblLimiteDebit, #lblLimiteCredit, #lblIstoricTranzactiiDebit, #lblIstoricTranzactiiCont, #lblLinieCredit, #lblVizualizareCredite {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#lblSubtitluConturi, #lblSubtitluDepozite, #lblCarduriDebit, #lblPlatileMeleProgramate, #lblBeneficiariExistenti, #lblCrediteleMele, #lblAlegereStatistica {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#lblAlegereStatistica {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#lblPerioadaStatistica {
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#gvConturi, #gvDepozite, #gvCarduriDebit, #gvCredite {
+    position: absolute;
+    top: 110px;
+    left: 60px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 600px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#btnCopiere, #btnDetaliiDebit, #btnDetaliiCreditContractat {
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnLimiteDebit {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 72%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnDetaliiCredit {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 285px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnLimiteCredit {
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 285px;
+    left: 72%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnLinieCredit {
+    border-radius: 10px;
+    width: 235px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnDetaliiDepozit {
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnStergereDepozit {
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 73%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#lblSubtitluEconomii, #lblCarduriCredit {
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#lblSubtitluDepoziteInactive {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#gvDepoziteInactive {
+    position: absolute;
+    top: 320px;
+    left: 60px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 600px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#gvConturiEconomii, #gvCarduriCredit {
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 600px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#btnDetaliiEconomii {
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 360px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnCopiereEconomii {
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnDesfiintareEconomii {
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 410px;
+    left: 70%;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#imgBackgroundDepozit, #imgBackgroundCont, #imgBackgroundLinie, #imgBackgroundDetaliiDepozite, #imgBackgroundDetaliiEconomii, #imgBackgroundIntreConturi, #imgBackgroundPlatiCont, #imgBackgroundConversie, #imgBackgroundProgramare, #imgBackgroundBeneficiarNou {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0px;
+    z-index: -5;
+}
+
+#imgBackgroundBeneficiari, #imgBackgroundPlatiProgramare, #imgBackgroundImprumut, #imgDetaliiImprumut, #imgBackgroundStatistici {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: -5;
+}
+
+#btnConturiActiuneRapida, #btnDeschideContActiuneRapida, #btnCarduriActiuneRapida, #btnPlataActiuneRapida, #btnConversieActiuneRapida {
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+#btnConturiActiuneRapida {
+    top: 35px;
+    right: 701.8px;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background: url(../Media/Second_Page/Icons/conturi_icon.png) center no-repeat;
+    background-color: #e4e9ed;
+    background-size: 45px;
+    color: white;
+    border: 0px;
+}
+
+#btnDeschideContActiuneRapida {
+    top: 35px;
+    right: 541.4px;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background: url(../Media/Second_Page/Icons/deschide_icon.png) 20px center no-repeat;
+    background-color: #e4e9ed;
+    background-size: 50px;
+    color: white;
+    border: 0px;
+}
+
+#btnCarduriActiuneRapida {
+    top: 35px;
+    right: 381px;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background: url(../Media/Second_Page/Icons/carduri_icon.png) center no-repeat;
+    background-color: #e4e9ed;
+    background-size: 50px;
+    color: white;
+    border: 0px;
+}
+
+#btnPlataActiuneRapida {
+    top: 35px;
+    right: 220.6px;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background: url(../Media/Second_Page/Icons/plata_icon.png) center no-repeat;
+    background-color: #e4e9ed;
+    background-size: 60px;
+    color: white;
+    border: 0px;
+}
+
+#btnConversieActiuneRapida {
+    top: 35px;
+    right: 70.2px;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background: url(../Media/Second_Page/Icons/conversie_icon.png) center no-repeat;
+    background-color: #e4e9ed;
+    background-size: 60px;
+    color: white;
+    border: 0px;
+}
+
+
+#imgDateCont {
+    position: absolute;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    border-radius: 15px;
+    top: 35px;
+    height: 65%;
+    opacity: 0.7;
+    left: 40px;
+    right: 0px;
+    z-index: -5;
+}
+
+#lblConturiActiuneRapida, #lblDeschideContActiuneRapida, #lblCarduriActiuneRapida, #lblPlataActiuneRapida, #lblConversieActiuneRapida {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 600;
+    color: #637076;
+}
+
+#lblConturiActiuneRapida {
+    top: 140px;
+    right: 693px;
+}
+
+#lblDeschideContActiuneRapida {
+    top: 140px;
+    right: 535px;
+}
+
+#lblCarduriActiuneRapida {
+    top: 140px;
+    right: 372px;
+}
+
+#lblPlataActiuneRapida {
+    top: 140px;
+    right: 210px;
+}
+
+#lblConversieActiuneRapida {
+    top: 140px;
+    right: 76px;
+}
+
+#btnConturiActiuneRapida:hover ~ #lblConturiActiuneRapida, #btnDeschideContActiuneRapida:hover ~ #lblDeschideContActiuneRapida, #btnCarduriActiuneRapida:hover ~ #lblCarduriActiuneRapida, #btnPlataActiuneRapida:hover ~ #lblPlataActiuneRapida, #btnConversieActiuneRapida:hover ~ #lblConversieActiuneRapida {
+    color: white;
+}
+
+#btnConturiActiuneRapida:hover, #btnDeschideContActiuneRapida:hover, #btnCarduriActiuneRapida:hover, #btnPlataActiuneRapida:hover, #btnConversieActiuneRapida:hover {
+    background-color: white;
+}

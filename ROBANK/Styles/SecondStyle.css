@@ -1,0 +1,3394 @@
+﻿#lblDepozitulMeu, #lblEconomii, #lblTitluDeschidere, #lblTransferIntreConturi, #lblTitluPlatiCont, #lblTitluConversie, #lblTitluPlatiProgramate, #lblTitluAdaugarePlataProgramata, #lblTitluBeneficiariPredefiniti, #lblTitluAdaugareBeneficiar, #lblTitluImprumut, #lblTitluStatistici {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#lblPerioadaDepozit, #lblSoldDepozit, #lblValutaDepozit, #lblRataDobanda, #lblSumaDobanda, #lblDataScadentaDepozit, #lblDataPrelungireDepozit {
+    position: absolute;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblDataCreare, #lblSoldEconomii, #lblValutaEconomii, #lblDobandaEconomii, #lblSumaDobandaEconomii {
+    position: absolute;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipContNou, #lblValutaContNou {
+    position: absolute;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipContNou {
+    top: 75px;
+}
+
+#lblValutaContNou {
+    top: 145px;
+}
+
+#txtPerioadaDepozit, #txtSoldDepozit, #txtValutaDepozit, #txtRataDobanda, #txtSumaDobanda, #txtDataScadentaDepozit, #txtDataPrelungireDepozit {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    pointer-events: none;
+    color: dimgray;
+}
+
+#txtDataCreare, #txtSoldEconomii, #txtValutaEconomii, #txtDobandaEconomii, #txtSumaDobandaEconomii {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 150px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    pointer-events: none;
+    color: dimgray;
+}
+
+#lblPerioadaDepozit, #lblDataCreare {
+    top: 75px;
+}
+
+#txtPerioadaDepozit, #txtDataCreare {
+    top: 100px;
+}
+
+#lblSoldDepozit, #lblSoldEconomii {
+    top: 135px;
+}
+
+#txtSoldDepozit, #txtSoldEconomii {
+    top: 160px;
+}
+
+#lblValutaDepozit, #lblValutaEconomii {
+    top: 195px;
+}
+
+#txtValutaDepozit, #txtValutaEconomii {
+    top: 220px;
+}
+
+#lblRataDobanda, #lblDobandaEconomii {
+    top: 255px;
+}
+
+#txtRataDobanda, #txtDobandaEconomii {
+    top: 280px;
+}
+
+#lblSumaDobanda, #lblSumaDobandaEconomii {
+    top: 315px;
+}
+
+#txtSumaDobanda, #txtSumaDobandaEconomii {
+    top: 340px;
+}
+
+#lblDataScadentaDepozit {
+    top:375px;
+}
+
+#txtDataScadentaDepozit{
+    top:400px;
+}
+
+#lblDataPrelungireDepozit{
+    top:435px;
+}
+
+#txtDataPrelungireDepozit{
+    top:460px;
+}
+
+#btnDepozitRevenire, #btnEconomiiRevenire, #btnDetaliiCreditRevenire {
+    border-radius: 10px;
+    height: 30px;
+    position: relative;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnDepozitRevenire {
+    top: 455px;
+    left: 45%;
+    width: 100px;
+}
+
+#btnEconomiiRevenire {
+    top: 400px;
+    left: 60px;
+    width: 150px;
+}
+
+#btnDetaliiCreditRevenire {
+    top: 450px;
+    left: 60px;
+    width: 210px;
+}
+
+
+#lblContTransferNou, #lblTipDepozitNou, #lblValoareDepozitNou, #lblValutaDepozitNou, #lblPerioadaDepozitNou, #lblRataDobandaDepozitNou, #lblDataInceput {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblContTransferNou {
+    top: 90px;
+    left: 60px;
+}
+
+#lblTipDepozitNou {
+    top: 90px;
+    left: 360px;
+}
+
+#lblValoareDepozitNou {
+    top: 170px;
+    left: 60px;
+}
+
+#lblValutaDepozitNou {
+    top: 170px;
+    left: 360px;
+}
+
+#lblPerioadaDepozitNou {
+    top: 250px;
+    left: 60px;
+}
+
+#lblDataInceput {
+    top: 250px;
+    left: 360px;
+}
+
+#lblRataDobandaDepozitNou {
+    left: 60px;
+    top: 380px;
+}
+
+#lblEroareCalendar {
+    top: 265px;
+    left: 360px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+
+#txtContTransferNou, #dlTipContNou, #dlValutaContNou, #dlTipDepozitNou, #txtValoareDepozitNou, #txtValutaDepozitNou, #txtPerioadaDepozitNou, #txtRataDobandaDepozitNou, #txtDataInceput {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#txtContTransferNou {
+    top: 120px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#dlTipDepozitNou {
+    top: 120px;
+    left: 360px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 178px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#dlTipContNou {
+    top: 100px;
+    left: 60px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 178px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#dlValutaContNou {
+    top: 170px;
+    left: 60px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 178px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#txtValoareDepozitNou {
+    top: 200px;
+    left: 60px;
+}
+
+#txtValutaDepozitNou {
+    top: 200px;
+    left: 360px;
+    pointer-events: none;
+}
+
+#txtPerioadaDepozitNou {
+    top: 280px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#txtDataInceput {
+    top: 280px;
+    left: 360px;
+    pointer-events: none;
+}
+
+#cbPrelungire {
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: 325px;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+#lblPrelungireDepozitNou {
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: 322px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#cbCapitalizare {
+    position: absolute;
+    left: 60px;
+    top: 350px;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+#lblCapitalizareDepozitNou {
+    position: absolute;
+    display: inline-block;
+    left: 80px;
+    top: 350px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#txtRataDobandaDepozitNou {
+    left: 60px;
+    top: 410px;
+}
+
+#ibCalendar {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 280px;
+    left: 570px;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    color: white;
+    border: 0px;
+}
+
+#cldDepozitNou {
+    position: absolute;
+    left: 595px;
+    top: 280px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+}
+
+#btnFinalizareDepozitNou, #btnAnulareDepozitNou, #btnFinalizareContNou, #btnAnulareContNou {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnFinalizareDepozitNou {
+    top: 360px;
+    left: 360px;
+}
+
+#btnAnulareDepozitNou {
+    top: 400px;
+    left: 360px;
+}
+
+#cbAcordDepozitNou {
+    position: relative;
+    display: inline-block;
+    top: 320px;
+    left: 275px;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+#lblAcordDepozitNou {
+    position: relative;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    color: red;
+    top: 317px;
+    left: 275px;
+}
+
+#lblDateIncomplete {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+    color: red;
+    left: 385px;
+    top: 340px;
+}
+
+#cbAcordContNou {
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: 210px;
+    font-family: Roboto;
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+#lblAcordContNou {
+    position: relative;
+    display: inline-block;
+    left: 60px;
+    top: 207px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+}
+
+#lblEroareContNou {
+    top: 240px;
+    left: 60px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#btnFinalizareContNou {
+    left: 60px;
+    top: 260px;
+}
+
+#btnAnulareContNou {
+    left: 60px;
+    top: 300px;
+}
+
+#lblDenumireProdusDebit, #lblStareCardDebit, #lblNumarCardDebit, #lblCVVDebit, #lblIbanAtasatDebit, #lblNumeTitularDebit, #lblDataExpirareDebit, #lblLinieCreditDebit, #lblDenumireProdusStare {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblDenumireProdusCredit, #lblSoldCardCredit, #lblNumarCardCredit, #lblCVVCredit, #lblIbanAtasatCredit, #lblNumeTitularCredit, #lblDataExpirareCredit, #lblLimitaCardCredit, #lblDenumireProdusStare {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtDenumireProdusDebit, #txtStareCardDebit, #txtNumarCardDebit, #txtCVVDebit, #txtIbanAtasatDebit, #txtNumeTitularDebit, #txtDataExpirareDebit, #txtLinieCreditDebit {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 180px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    pointer-events: none;
+    color: dimgray;
+}
+
+
+#txtDenumireProdusCredit, #txtSoldCardCredit, #txtNumarCardCredit, #txtCVVCredit, #txtIbanAtasatCredit, #txtNumeTitularCredit, #txtDataExpirareCredit, #txtLimitaCardCredit {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 180px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    pointer-events: none;
+    color: dimgray;
+}
+
+
+#lblDenumireProdusDebit {
+    top: 90px;
+    left: 60px;
+}
+
+#txtDenumireProdusDebit {
+    top: 120px;
+    left: 60px;
+}
+
+#lblStareCardDebit {
+    top: 90px;
+    left: 290px;
+}
+
+#txtStareCardDebit {
+    top: 120px;
+    left: 290px;
+}
+
+#lblNumarCardDebit {
+    top: 170px;
+    left: 60px;
+}
+
+#txtNumarCardDebit {
+    top: 200px;
+    left: 60px;
+}
+
+#lblCVVDebit {
+    top: 170px;
+    left: 290px;
+}
+
+#txtCVVDebit {
+    top: 200px;
+    left: 290px;
+}
+
+#lblIbanAtasatDebit {
+    top: 260px;
+    left: 60px;
+}
+
+#txtIbanAtasatDebit {
+    top: 290px;
+    left: 60px;
+    font-size: 12px;
+}
+
+#lblNumeTitularDebit {
+    top: 260px;
+    left: 290px;
+}
+
+#txtNumeTitularDebit {
+    top: 290px;
+    left: 290px;
+}
+
+#lblDataExpirareDebit {
+    top: 350px;
+    left: 60px;
+}
+
+#txtDataExpirareDebit {
+    top: 380px;
+    left: 60px;
+}
+
+#lblLinieCreditDebit {
+    top: 350px;
+    left: 290px;
+}
+
+#txtLinieCreditDebit {
+    top: 380px;
+    left: 290px;
+}
+
+#imgCardDebitDebit {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 150px;
+    top: 170px;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+#lblNumarCardFizicDebit, #lblNumeTitularFizicDebit, #lblCVVFizicDebit, #lblDataExpirareFizicDebit, #lblTipCardFizicDebit {
+    position: absolute;
+    font-family: Roboto;
+    font-weight: 500;
+    color: darkslategray;
+}
+
+#lblNumarCardFizicDebit {
+    top: 285px;
+    left: 630px;
+    font-size: 17px;
+}
+
+#lblNumeTitularFizicDebit {
+    top: 340px;
+    left: 630px;
+    font-size: 17px;
+}
+
+#lblDataExpirareFizicDebit {
+    top: 313.5px;
+    left: 630px;
+    font-size: 12px;
+}
+
+#lblCVVFizicDebit {
+    top: 313.5px;
+    left: 740px;
+    font-size: 12px;
+}
+
+#lblTipCardFizicDebit {
+    top: 340px;
+    left: 845px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+#lblDenumireProdusCredit {
+    top: 90px;
+    left: 60px;
+}
+
+#txtDenumireProdusCredit {
+    top: 120px;
+    left: 60px;
+}
+
+#lblSoldCardCredit {
+    top: 90px;
+    left: 290px;
+}
+
+#txtSoldCardCredit {
+    top: 120px;
+    left: 290px;
+}
+
+#lblNumarCardCredit {
+    top: 170px;
+    left: 60px;
+}
+
+#txtNumarCardCredit {
+    top: 200px;
+    left: 60px;
+}
+
+#lblCVVCredit {
+    top: 170px;
+    left: 290px;
+}
+
+#txtCVVCredit {
+    top: 200px;
+    left: 290px;
+}
+
+#lblIbanAtasatCredit {
+    top: 260px;
+    left: 60px;
+}
+
+#txtIbanAtasatCredit {
+    top: 290px;
+    left: 60px;
+    font-size: 12px;
+}
+
+#lblNumeTitularCredit {
+    top: 260px;
+    left: 290px;
+}
+
+#txtNumeTitularCredit {
+    top: 290px;
+    left: 290px;
+}
+
+#lblDataExpirareCredit {
+    top: 350px;
+    left: 60px;
+}
+
+#txtDataExpirareCredit {
+    top: 380px;
+    left: 60px;
+}
+
+#lblLimitaCardCredit {
+    top: 350px;
+    left: 290px;
+}
+
+#txtLimitaCardCredit {
+    top: 380px;
+    left: 290px;
+}
+
+#imgCardCreditCredit {
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 150px;
+    top: 170px;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+#lblNumarCardFizicCredit, #lblNumeTitularFizicCredit, #lblCVVFizicCredit, #lblDataExpirareFizicCredit {
+    position: absolute;
+    font-family: Roboto;
+    font-weight: 500;
+    color: lightgray;
+}
+
+#lblNumarCardFizicCredit {
+    top: 285px;
+    left: 630px;
+    font-size: 17px;
+}
+
+#lblNumeTitularFizicCredit {
+    top: 340px;
+    left: 630px;
+    font-size: 17px;
+}
+
+#lblDataExpirareFizicCredit {
+    top: 313.5px;
+    left: 630px;
+    font-size: 12px;
+}
+
+#lblCVVFizicCredit {
+    top: 313.5px;
+    left: 740px;
+    font-size: 12px;
+}
+
+#lblTipCardFizicCredit {
+    top: 340px;
+    left: 845px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+
+#lblTipLimitaDebitInternet, #lblLimitaStandardDebitInternet, #lblDataInceputLimitaDebitInternet, #lblDataSfarsitLimitaDebitInternet, #lblLimitaNouaDebitInternet {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipLimitaCreditInternet, #lblLimitaStandardCreditInternet, #lblDataInceputLimitaCreditInternet, #lblDataSfarsitLimitaCreditInternet, #lblLimitaNouaCreditInternet {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtTipLimitaDebitInternet, #txtLimitaStandardDebitInternet, #txtDataInceputLimitaDebitInternet, #txtDataSfarsitLimitaDebitInternet, #txtLimitaNouaDebitInternet {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#txtTipLimitaCreditInternet, #txtLimitaStandardCreditInternet, #txtDataInceputLimitaCreditInternet, #txtDataSfarsitLimitaCreditInternet, #txtLimitaNouaCreditInternet {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblTipLimitaDebitInternet {
+    top: 90px;
+    left: 60px;
+}
+
+#txtTipLimitaDebitInternet {
+    top: 120px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardDebitInternet {
+    top: 90px;
+    left: 230px;
+}
+
+#txtLimitaStandardDebitInternet {
+    top: 120px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaDebitInternet {
+    top: 90px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaDebitInternet {
+    top: 120px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaDebitInternet {
+    top: 90px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaDebitInternet {
+    top: 120px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaDebitInternet {
+    top: 90px;
+    left: 740px;
+}
+
+#txtLimitaNouaDebitInternet {
+    top: 120px;
+    left: 740px;
+}
+
+#lblTipLimitaCreditInternet {
+    top: 90px;
+    left: 60px;
+}
+
+#txtTipLimitaCreditInternet {
+    top: 120px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardCreditInternet {
+    top: 90px;
+    left: 230px;
+}
+
+#txtLimitaStandardCreditInternet {
+    top: 120px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaCreditInternet {
+    top: 90px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaCreditInternet {
+    top: 120px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaCreditInternet {
+    top: 90px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaCreditInternet {
+    top: 120px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaCreditInternet {
+    top: 90px;
+    left: 740px;
+}
+
+#txtLimitaNouaCreditInternet {
+    top: 120px;
+    left: 740px;
+}
+
+
+#lblTipLimitaDebitNumerar, #lblLimitaStandardDebitNumerar, #lblDataInceputLimitaDebitNumerar, #lblDataSfarsitLimitaDebitNumerar, #lblLimitaNouaDebitNumerar {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipLimitaCreditNumerar, #lblLimitaStandardCreditNumerar, #lblDataInceputLimitaCreditNumerar, #lblDataSfarsitLimitaCreditNumerar, #lblLimitaNouaCreditNumerar {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtTipLimitaDebitNumerar, #txtLimitaStandardDebitNumerar, #txtDataInceputLimitaDebitNumerar, #txtDataSfarsitLimitaDebitNumerar, #txtLimitaNouaDebitNumerar {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#txtTipLimitaCreditNumerar, #txtLimitaStandardCreditNumerar, #txtDataInceputLimitaCreditNumerar, #txtDataSfarsitLimitaCreditNumerar, #txtLimitaNouaCreditNumerar {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblTipLimitaDebitNumerar {
+    top: 180px;
+    left: 60px;
+}
+
+#txtTipLimitaDebitNumerar {
+    top: 210px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardDebitNumerar {
+    top: 180px;
+    left: 230px;
+}
+
+#txtLimitaStandardDebitNumerar {
+    top: 210px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaDebitNumerar {
+    top: 180px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaDebitNumerar {
+    top: 210px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaDebitNumerar {
+    top: 180px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaDebitNumerar {
+    top: 210px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaDebitNumerar {
+    top: 180px;
+    left: 740px;
+}
+
+#txtLimitaNouaDebitNumerar {
+    top: 210px;
+    left: 740px;
+}
+
+#lblTipLimitaCreditNumerar {
+    top: 180px;
+    left: 60px;
+}
+
+#txtTipLimitaCreditNumerar {
+    top: 210px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardCreditNumerar {
+    top: 180px;
+    left: 230px;
+}
+
+#txtLimitaStandardCreditNumerar {
+    top: 210px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaCreditNumerar {
+    top: 180px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaCreditNumerar {
+    top: 210px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaCreditNumerar {
+    top: 180px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaCreditNumerar {
+    top: 210px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaCreditNumerar {
+    top: 180px;
+    left: 740px;
+}
+
+#txtLimitaNouaCreditNumerar {
+    top: 210px;
+    left: 740px;
+}
+
+
+#lblTipLimitaDebitTranzactii, #lblLimitaStandardDebitTranzactii, #lblDataInceputLimitaDebitTranzactii, #lblDataSfarsitLimitaDebitTranzactii, #lblLimitaNouaDebitTranzactii {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipLimitaCreditTranzactii, #lblLimitaStandardCreditTranzactii, #lblDataInceputLimitaCreditTranzactii, #lblDataSfarsitLimitaCreditTranzactii, #lblLimitaNouaCreditTranzactii {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtTipLimitaDebitTranzactii, #txtLimitaStandardDebitTranzactii, #txtDataInceputLimitaDebitTranzactii, #txtDataSfarsitLimitaDebitTranzactii, #txtLimitaNouaDebitTranzactii {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#txtTipLimitaCreditTranzactii, #txtLimitaStandardCreditTranzactii, #txtDataInceputLimitaCreditTranzactii, #txtDataSfarsitLimitaCreditTranzactii, #txtLimitaNouaCreditTranzactii {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblTipLimitaDebitTranzactii {
+    top: 280px;
+    left: 60px;
+}
+
+#txtTipLimitaDebitTranzactii {
+    top: 310px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardDebitTranzactii {
+    top: 280px;
+    left: 230px;
+}
+
+#txtLimitaStandardDebitTranzactii {
+    top: 310px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaDebitTranzactii {
+    top: 280px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaDebitTranzactii {
+    top: 310px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaDebitTranzactii {
+    top: 280px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaDebitTranzactii {
+    top: 310px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaDebitTranzactii {
+    top: 280px;
+    left: 740px;
+}
+
+#txtLimitaNouaDebitTranzactii {
+    top: 310px;
+    left: 740px;
+}
+
+#lblTipLimitaCreditTranzactii {
+    top: 280px;
+    left: 60px;
+}
+
+#txtTipLimitaCreditTranzactii {
+    top: 310px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardCreditTranzactii {
+    top: 280px;
+    left: 230px;
+}
+
+#txtLimitaStandardCreditTranzactii {
+    top: 310px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaCreditTranzactii {
+    top: 280px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaCreditTranzactii {
+    top: 310px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaCreditTranzactii {
+    top: 280px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaCreditTranzactii {
+    top: 310px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaCreditTranzactii {
+    top: 280px;
+    left: 740px;
+}
+
+#txtLimitaNouaCreditTranzactii {
+    top: 310px;
+    left: 740px;
+}
+
+
+#lblTipLimitaDebitPOS, #lblLimitaStandardDebitPOS, #lblDataInceputLimitaDebitPOS, #lblDataSfarsitLimitaDebitPOS, #lblLimitaNouaDebitPOS {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipLimitaCreditPOS, #lblLimitaStandardCreditPOS, #lblDataInceputLimitaCreditPOS, #lblDataSfarsitLimitaCreditPOS, #lblLimitaNouaCreditPOS {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtTipLimitaDebitPOS, #txtLimitaStandardDebitPOS, #txtDataInceputLimitaDebitPOS, #txtDataSfarsitLimitaDebitPOS, #txtLimitaNouaDebitPOS {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#txtTipLimitaCreditPOS, #txtLimitaStandardCreditPOS, #txtDataInceputLimitaCreditPOS, #txtDataSfarsitLimitaCreditPOS, #txtLimitaNouaCreditPOS {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblTipLimitaDebitPOS {
+    top: 370px;
+    left: 60px;
+}
+
+#txtTipLimitaDebitPOS {
+    top: 400px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardDebitPOS {
+    top: 370px;
+    left: 230px;
+}
+
+#txtLimitaStandardDebitPOS {
+    top: 400px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaDebitPOS {
+    top: 370px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaDebitPOS {
+    top: 400px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaDebitPOS {
+    top: 370px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaDebitPOS {
+    top: 400px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaDebitPOS {
+    top: 370px;
+    left: 740px;
+}
+
+#txtLimitaNouaDebitPOS {
+    top: 400px;
+    left: 740px;
+}
+
+#lblTipLimitaCreditPOS {
+    top: 370px;
+    left: 60px;
+}
+
+#txtTipLimitaCreditPOS {
+    top: 400px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblLimitaStandardCreditPOS {
+    top: 370px;
+    left: 230px;
+}
+
+#txtLimitaStandardCreditPOS {
+    top: 400px;
+    left: 230px;
+    pointer-events: none;
+}
+
+#lblDataInceputLimitaCreditPOS {
+    top: 370px;
+    left: 400px;
+}
+
+#txtDataInceputLimitaCreditPOS {
+    top: 400px;
+    left: 400px;
+    pointer-events: none;
+}
+
+#lblDataSfarsitLimitaCreditPOS {
+    top: 370px;
+    left: 570px;
+}
+
+#txtDataSfarsitLimitaCreditPOS {
+    top: 400px;
+    left: 570px;
+    pointer-events: none;
+}
+
+#lblLimitaNouaCreditPOS {
+    top: 370px;
+    left: 740px;
+}
+
+#txtLimitaNouaCreditPOS {
+    top: 400px;
+    left: 740px;
+}
+
+
+#btnModificareDebitInternet, #btnAnulareDebitInternet, #btnModificareDebitNumerar, #btnAnulareDebitNumerar, #btnModificareDebitTranzactii, #btnAnulareDebitTranzactii, #btnModificareDebitPOS, #btnAnulareDebitPOS {
+    border-radius: 10px;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnModificareCreditInternet, #btnAnulareCreditInternet, #btnModificareCreditNumerar, #btnAnulareCreditNumerar, #btnModificareCreditTranzactii, #btnAnulareCreditTranzactii, #btnModificareCreditPOS, #btnAnulareCreditPOS {
+    border-radius: 10px;
+    width: 90px;
+    height: 25px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+
+#btnModificareDebitInternet {
+    top: 120px;
+    left: 910px;
+}
+
+#btnAnulareDebitInternet {
+    top: 150px;
+    left: 910px;
+}
+
+#btnModificareDebitNumerar {
+    top: 210px;
+    left: 910px;
+}
+
+#btnAnulareDebitNumerar {
+    top: 240px;
+    left: 910px;
+}
+
+#btnModificareDebitTranzactii {
+    top: 310px;
+    left: 910px;
+}
+
+#btnAnulareDebitTranzactii {
+    top: 340px;
+    left: 910px;
+}
+
+#btnModificareDebitPOS {
+    top: 400px;
+    left: 910px;
+}
+
+#btnAnulareDebitPOS {
+    top: 430px;
+    left: 910px;
+}
+
+#btnModificareCreditInternet {
+    top: 120px;
+    left: 910px;
+}
+
+#btnAnulareCreditInternet {
+    top: 150px;
+    left: 910px;
+}
+
+#btnModificareCreditNumerar {
+    top: 210px;
+    left: 910px;
+}
+
+#btnAnulareCreditNumerar {
+    top: 240px;
+    left: 910px;
+}
+
+#btnModificareCreditTranzactii {
+    top: 310px;
+    left: 910px;
+}
+
+#btnAnulareCreditTranzactii {
+    top: 340px;
+    left: 910px;
+}
+
+#btnModificareCreditPOS {
+    top: 400px;
+    left: 910px;
+}
+
+#btnAnulareCreditPOS {
+    top: 430px;
+    left: 910px;
+}
+
+#ibInceputCalendarInternet, #ibInceputCalendarNumerar, #ibInceputCalendarTranzactii, #ibInceputCalendarPOS, #ibSfarsitCalendarInternet, #ibSfarsitCalendarNumerar, #ibSfarsitCalendarTranzactii, #ibSfarsitCalendarPOS {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    color: white;
+    border: 0px;
+}
+
+#ibInceputCalendarInternetCredit, #ibInceputCalendarNumerarCredit, #ibInceputCalendarTranzactiiCredit, #ibInceputCalendarPOSCredit, #ibSfarsitCalendarInternetCredit, #ibSfarsitCalendarNumerarCredit, #ibSfarsitCalendarTranzactiiCredit, #ibSfarsitCalendarPOSCredit {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    color: white;
+    border: 0px;
+}
+
+#cldInceputInternet, #cldInceputNumerar, #cldInceputTranzactii, #cldInceputPOS, #cldSfarsitInternet, #cldSfarsitNumerar, #cldSfarsitTranzactii, #cldSfarsitPOS {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-family: Roboto;
+    background-color: rgba(255, 255, 255, 1);
+    z-index:950;
+}
+
+#cldInceputInternetCredit, #cldInceputNumerarCredit, #cldInceputTranzactiiCredit, #cldInceputPOSCredit, #cldSfarsitInternetCredit, #cldSfarsitNumerarCredit, #cldSfarsitTranzactiiCredit, #cldSfarsitPOSCredit {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-family: Roboto;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 950;
+}
+
+#ibInceputCalendarInternet {
+    top: 120px;
+    left: 535px;
+}
+
+#cldInceputInternet {
+    top: 120px;
+    left: 560px;
+}
+
+#ibInceputCalendarNumerar {
+    top: 210px;
+    left: 535px;
+}
+
+#cldInceputNumerar {
+    top: 210px;
+    left: 560px;
+}
+
+#ibInceputCalendarTranzactii {
+    top: 310px;
+    left: 535px;
+}
+
+#cldInceputTranzactii {
+    top: 310px;
+    left: 560px;
+}
+
+#ibInceputCalendarPOS {
+    top: 400px;
+    left: 535px;
+}
+
+#cldInceputPOS {
+    top: 400px;
+    left: 560px;
+}
+
+#ibSfarsitCalendarInternet {
+    top: 120px;
+    left: 705px;
+}
+
+#cldSfarsitInternet {
+    top: 120px;
+    left: 730px;
+}
+
+#ibSfarsitCalendarNumerar {
+    top: 210px;
+    left: 705px;
+}
+
+#cldSfarsitNumerar {
+    top: 210px;
+    left: 730px;
+}
+
+#ibSfarsitCalendarTranzactii {
+    top: 310px;
+    left: 705px;
+}
+
+#cldSfarsitTranzactii {
+    top: 310px;
+    left: 730px;
+}
+
+#ibSfarsitCalendarPOS {
+    top: 400px;
+    left: 705px;
+}
+
+#cldSfarsitPOS {
+    top: 400px;
+    left: 730px;
+}
+
+#btnLimiteInapoi {
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 800;
+    top: 90%;
+    left: 60px;
+}
+
+
+#ibInceputCalendarInternetCredit {
+    top: 120px;
+    left: 535px;
+}
+
+#cldInceputInternetCredit {
+    top: 120px;
+    left: 560px;
+}
+
+#ibInceputCalendarNumerarCredit {
+    top: 210px;
+    left: 535px;
+}
+
+#cldInceputNumerarCredit {
+    top: 210px;
+    left: 560px;
+}
+
+#ibInceputCalendarTranzactiiCredit {
+    top: 310px;
+    left: 535px;
+}
+
+#cldInceputTranzactiiCredit {
+    top: 310px;
+    left: 560px;
+}
+
+#ibInceputCalendarPOSCredit {
+    top: 400px;
+    left: 535px;
+}
+
+#cldInceputPOSCredit {
+    top: 400px;
+    left: 560px;
+}
+
+#ibSfarsitCalendarInternetCredit {
+    top: 120px;
+    left: 705px;
+}
+
+#cldSfarsitInternetCredit {
+    top: 120px;
+    left: 730px;
+}
+
+#ibSfarsitCalendarNumerarCredit {
+    top: 210px;
+    left: 705px;
+}
+
+#cldSfarsitNumerarCredit {
+    top: 210px;
+    left: 730px;
+}
+
+#ibSfarsitCalendarTranzactiiCredit {
+    top: 310px;
+    left: 705px;
+}
+
+#cldSfarsitTranzactiiCredit {
+    top: 310px;
+    left: 730px;
+}
+
+#ibSfarsitCalendarPOSCredit {
+    top: 400px;
+    left: 705px;
+}
+
+#cldSfarsitPOSCredit {
+    top: 400px;
+    left: 730px;
+}
+
+#btnLimiteInapoiCredit {
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 800;
+    top: 90%;
+    left: 60px;
+}
+
+
+#lblCard, #lblDataInceputIstoricDebit, #lblLinieIstoricDebit, #lblDataSfarsitIstoricDebit, #lblTipTranzactieIstoricDebit {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#dlCardDebit, #txtDataInceputIstoricDebit, #txtDataSfarsitIstoricDebit, #dlTipTranzactieIstoricDebit {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblCard {
+    left: 60px;
+    top: 100px;
+}
+
+#dlCardDebit {
+    left: 60px;
+    top: 125px;
+    width: 300px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 280px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#rblPerioadaDebit {
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto;
+    left: 60px;
+    top: 170px;
+}
+
+#lblDataInceputIstoricDebit {
+    left: 60px;
+    top: 220px;
+}
+
+#txtDataInceputIstoricDebit {
+    left: 60px;
+    top: 250px;
+    width: 110px;
+    pointer-events: none;
+}
+
+#lblLinieIstoricDebit {
+    left: 202px;
+    top: 250px;
+}
+
+#lblDataSfarsitIstoricDebit {
+    left: 230px;
+    top: 220px;
+}
+
+#txtDataSfarsitIstoricDebit {
+    left: 230px;
+    top: 250px;
+    width: 110px;
+    pointer-events: none;
+}
+
+#lblTipTranzactieIstoricDebit {
+    left: 60px;
+    top: 300px;
+}
+
+#dlTipTranzactieIstoricDebit {
+    left: 60px;
+    top: 330px;
+    width: 130px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 110px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#ibDataInceputIstoricDebit, #ibDataSfarsitIstoricDebit {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    color: white;
+    border: 0px;
+}
+
+#ibDataInceputIstoricDebit {
+    left: 175px;
+    top: 250px;
+}
+
+#ibDataSfarsitIstoricDebit {
+    left: 345px;
+    top: 250px;
+}
+
+#cldDataInceputIstoricDebit, #cldDataSfarsitIstoricDebit {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+}
+
+#cldDataInceputIstoricDebit {
+    left: 200px;
+    top: 250px;
+    z-index: 950;
+}
+
+#cldDataSfarsitIstoricDebit {
+    left: 370px;
+    top: 250px;
+    z-index: 950;
+}
+
+#btnVizualizareTranzactiiIstoricDebit {
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+    top: 330px;
+    left: 230px;
+}
+
+#btnExportPdfIstoric {
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+    top: 100px;
+    left: 62%;
+    position: relative;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#lblEroareIstoric {
+    left: 230px;
+    top: 300px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#lblListaTranzactiiIstoricDebit {
+    position: absolute;
+    top: 80px;
+    left: 42%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#gvListaTranzactiiIstoricDebit {
+    position: relative;
+    top: 100px;
+    left: 42%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 550px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#lblNrCardLinie, #lblSumaLinie, #lblPlafonLinie {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtNrCardLinie, #txtSumaLinie, #dlPlafonLinie {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 180px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblNrCardLinie {
+    top:90px;
+    left:60px;
+}
+
+#txtNrCardLinie {
+    top: 120px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblPlafonLinie {
+    top: 170px;
+    left: 60px;
+}
+
+#dlPlafonLinie {
+    top: 200px;
+    left: 60px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 178px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#lblSumaLinie {
+    top: 250px;
+    left: 60px;
+}
+
+#txtSumaLinie {
+    top: 280px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#btnFinalizareLinie, #btnAnulareLinie {
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnFinalizareLinie {
+    top: 340px;
+    left: 60px;
+}
+
+#btnAnulareLinie {
+    top: 380px;
+    left: 60px;
+}
+
+.infoLinie {
+    width: 240px;
+    position:absolute;
+    text-align: justify;
+    top: 120px;
+    left: 350px;
+    font-family: Roboto;
+    font-weight:400;
+    font-size: 12px;
+}
+
+#lblTransferDinContul, #lblTransferCatreContul, #lblSumaTransferIntreConturi, #lblDetaliiTransferIntreConturi {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+
+#txtTransferDinContul, #dlTransferCatreContul, #txtSumaTransferIntreConturi, #txtDetaliiTransferIntreConturi {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 225px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblTransferDinContul {
+    top: 90px;
+    left: 60px;
+}
+
+#txtTransferDinContul {
+    top: 115px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#lblTransferCatreContul {
+    top: 160px;
+    left: 60px;
+}
+
+#dlTransferCatreContul {
+    top: 185px;
+    left: 60px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 205px center no-repeat;
+    background-color: rgb(255, 255, 255, 1);
+    background-size: 15px;
+}
+
+#lblSumaTransferIntreConturi {
+    top: 230px;
+    left: 60px;
+}
+
+#txtSumaTransferIntreConturi {
+    top: 255px;
+    left: 60px;
+    background-color: white;
+}
+
+#lblDetaliiTransferIntreConturi {
+    top: 300px;
+    left: 60px;
+}
+
+#txtDetaliiTransferIntreConturi {
+    top: 325px;
+    left: 60px;
+    background-color: white;
+}
+
+#lblEroareTransferIntreConturi {
+    left: 105px;
+    top: 380px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 13px;
+    color: red;
+}
+
+#btnFinalizareTransferIntreConturi, #btnAnulareTransferIntreConturi {
+    border-radius: 10px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+    width: 225px;
+}
+
+#btnFinalizareTransferIntreConturi {
+    top: 400px;
+    left: 60px;
+}
+
+#btnAnulareTransferIntreConturi {
+    top: 440px;
+    left: 60px;
+}
+
+#lblPlataDinCont, #lblBeneficiarPredefinit, #lblNumeBeneficiar, #lblContBeneficiar, #lblSumaPlataDinCont, #lblDetaliiPlata {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblPlataDinCont {
+    top: 100px;
+    left: 60px;
+}
+
+#lblBeneficiarPredefinit {
+    top: 100px;
+    left: 360px;
+}
+
+#lblNumeBeneficiar {
+    top: 180px;
+    left: 60px;
+}
+
+#lblContBeneficiar {
+    top: 180px;
+    left: 360px;
+}
+
+#lblSumaPlataDinCont {
+    top: 260px;
+    left: 60px;
+}
+
+#lblDetaliiPlata {
+    top: 260px;
+    left: 360px;
+}
+
+
+#txtPlataDinContul, #dlBeneficiarPredefinit, #txtNumeBeneficiar, #txtContBeneficiar, #txtSumaPlataDinCont, #txtDetaliiPlata {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#txtPlataDinContul {
+    top: 130px;
+    left: 60px;
+    pointer-events: none;
+}
+
+#dlBeneficiarPredefinit {
+    top: 130px;
+    left: 360px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 178px center no-repeat;
+    background-color: rgb(255, 255, 255, 1);
+    background-size: 15px;
+}
+
+#txtNumeBeneficiar {
+    top: 210px;
+    left: 60px;
+    background-color: white;
+}
+
+#txtContBeneficiar {
+    top: 210px;
+    left: 360px;
+    background-color: white;
+}
+
+#txtSumaPlataDinCont {
+    top: 290px;
+    left: 60px;
+    background-color: white;
+}
+
+#txtDetaliiPlata {
+    top: 290px;
+    left: 360px;
+    background-color: white;
+}
+
+#lblEroarePlataCont {
+    left: 235px;
+    top: 360px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#btnFinalizarePlata, #btnAnularePlata {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnFinalizarePlata {
+    top: 380px;
+    left: 200px;
+}
+
+#btnAnularePlata {
+    top: 420px;
+    left: 200px;
+}
+
+#lblTipConversie, #lblContPlataConversie, #lblContDestinatarConversie, #lblSumaConversie, #lblCursSchimbConversie, #lblDataCursConversie, #lblSumaDupaConversie, #lblValoareCursConversie, #lblValoareDataConversie, #lblValoareCursBanca, #lblCursSchimbBanca {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblTipConversie {
+    top: 100px;
+    left: 60px;
+    font-weight: 700;
+}
+
+#lblContPlataConversie {
+    top: 230px;
+    left: 60px;
+}
+
+#lblContDestinatarConversie {
+    top: 230px;
+    left: 360px;
+}
+
+#lblSumaConversie {
+    top: 320px;
+    left: 60px;
+}
+
+#lblSumaDupaConversie {
+    top: 320px;
+    left: 360px;
+}
+
+#lblCursSchimbConversie {
+    top: 120px;
+    left: 360px;
+    font-weight: 700;
+}
+
+#lblDataCursConversie {
+    top: 150px;
+    left: 360px;
+    font-weight: 700;
+}
+
+#lblCursSchimbBanca {
+    top: 180px;
+    left: 360px;
+    font-weight: 700;
+    position: relative;
+}
+
+#lblValoareCursConversie {
+    top: 120px;
+    left: 480px;
+}
+
+#lblValoareDataConversie {
+    top: 150px;
+    left: 480px;
+}
+
+#lblValoareCursBanca {
+    top: 180px;
+    left: 365px;
+    position: relative;
+}
+
+#rblListaTipConversie {
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto;
+    left: 60px;
+    top: 130px;
+}
+
+
+#dlContPlataConversie, #dlContDestinatarConversie, #txtSumaConversie, #txtCursSchimbConversie, #txtSumaDupaConversie {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 220px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    color: dimgray;
+}
+
+#dlContPlataConversie {
+    top: 250px;
+    left: 60px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 200px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#dlContDestinatarConversie {
+    top: 250px;
+    left: 360px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 200px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#txtSumaConversie {
+    top: 340px;
+    left: 60px;
+    background-color: rgb(255, 255, 255, 1);
+}
+
+#txtSumaDupaConversie {
+    top: 340px;
+    left: 360px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#lblEroareConversie {
+    top: 410px;
+    left: 105px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#btnFinalizareConversie, #btnAnulareConversie {
+    border-radius: 10px;
+    width: 220px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnFinalizareConversie {
+    top: 430px;
+    left: 60px;
+}
+
+#btnAnulareConversie {
+    top: 430px;
+    left: 360px;
+}
+
+#gvPlatiProgramate {
+    top: 100px;
+    left: 60px;
+    position: relative;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 600px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#btnPlataNouaProgramata, #btnAnularePlataProgramata {
+    border-radius: 10px;
+    width: 180px;
+    height: 25px;
+    position: relative;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnPlataNouaProgramata {
+    top: 100px;
+    left: 15%;
+}
+
+#btnAnularePlataProgramata {
+    top: 100px;
+    left: 18%;
+}
+
+#lblDenumirePlataProgramata, #lblDataInceputPlataProgramata, #lblContPlataProgramata, #lblBeneficiarPlataProgramata, #lblNumeBeneficiarPlataProgramata, #lblContBeneficiarPlataProgramata, #lblDetaliiPlataProgramata, #lblSumaPlataProgramata {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtDenumirePlataProgramata, #txtDataInceputPlataProgramata, #txtContPlataProgramata, #txtNumeBeneficiarPlataProgramata, #txtContBeneficiarPlataProgramata, #txtDetaliiPlataProgramata, #txtSumaPlataProgramata {
+    position: absolute;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 1);
+    color: dimgray;
+}
+
+#lblDenumirePlataProgramata {
+    top: 90px;
+    left: 60px;
+}
+
+#txtDenumirePlataProgramata {
+    top: 120px;
+    left: 60px;
+}
+
+#lblDataInceputPlataProgramata {
+    top: 90px;
+    left: 320px;
+}
+
+#txtDataInceputPlataProgramata {
+    top: 120px;
+    left: 320px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0,7);
+}
+
+#lblContPlataProgramata {
+    top: 160px;
+    left: 60px;
+}
+
+#txtContPlataProgramata {
+    top: 190px;
+    left: 60px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0,7);
+}
+
+#lblBeneficiarPlataProgramata {
+    top: 160px;
+    left: 320px;
+}
+
+#dlBeneficiarPlataProgramata {
+    top: 190px;
+    left: 320px;
+    position: absolute;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 178px center no-repeat;
+    background-color: rgb(255, 255, 255, 1);
+    background-size: 15px;
+    color: dimgray;
+}
+
+#lblNumeBeneficiarPlataProgramata {
+    top: 230px;
+    left: 60px;
+}
+
+#txtNumeBeneficiarPlataProgramata {
+    top: 260px;
+    left: 60px;
+}
+
+#lblContBeneficiarPlataProgramata {
+    top: 230px;
+    left: 320px;
+}
+
+#txtContBeneficiarPlataProgramata {
+    top: 260px;
+    left: 320px;
+}
+
+#lblDetaliiPlataProgramata {
+    top: 300px;
+    left: 60px;
+}
+
+#txtDetaliiPlataProgramata {
+    top: 330px;
+    left: 60px;
+}
+
+#lblSumaPlataProgramata {
+    top: 300px;
+    left: 320px;
+}
+
+#txtSumaPlataProgramata {
+    top: 330px;
+    left: 320px;
+}
+
+#lblEroarePlatiProgramate {
+    top: 400px;
+    left: 95px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#btnAdaugareProgramare, #btnAnulareProgramare {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnAdaugareProgramare {
+    top: 420px;
+    left: 60px;
+}
+
+#btnAnulareProgramare {
+    top: 420px;
+    left: 320px;
+}
+
+#gvBeneficiariPredefiniti {
+    top: 100px;
+    left: 60px;
+    position: relative;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 600px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#btnAdaugareBeneficiarPredefinit, #btnStergereBeneficiarPredefinit {
+    border-radius: 10px;
+    width: 180px;
+    height: 25px;
+    position: relative;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnAdaugareBeneficiarPredefinit {
+    top: 100px;
+    left: 15%;
+}
+
+#btnStergereBeneficiarPredefinit {
+    top: 100px;
+    left: 18%;
+}
+
+#lblDenumireBeneficiarNou, #lblNumeBeneficiarNou, #lblContBeneficiarNou, #lblValutaBeneficiarNou {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtDenumireBeneficiarNou, #txtNumeBeneficiarNou, #txtContBeneficiarNou {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 1);
+    color: dimgray;
+}
+
+#lblDenumireBeneficiarNou {
+    top: 90px;
+    left: 60px;
+}
+
+#txtDenumireBeneficiarNou {
+    top: 120px;
+    left: 60px;
+}
+
+#lblNumeBeneficiarNou {
+    top: 170px;
+    left: 60px;
+}
+
+#txtNumeBeneficiarNou {
+    top: 200px;
+    left: 60px;
+}
+
+#lblContBeneficiarNou {
+    top: 250px;
+    left: 60px;
+}
+
+#txtContBeneficiarNou {
+    top: 280px;
+    left: 60px;
+}
+
+#lblValutaBeneficiarNou {
+    top: 330px;
+    left: 60px;
+}
+
+#rblValutaBeneficiarNou {
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto;
+    pointer-events: none;
+    top: 355px;
+    left: 60px;
+}
+
+#lblEroareBeneficiarPredefinit {
+    left: 90px;
+    top: 380px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 13px;
+    color: red;
+}
+
+#btnAdaugareBeneficiarNou, #btnAnulareBeneficiarNou {
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnAdaugareBeneficiarNou {
+    top: 400px;
+    left: 60px;
+}
+
+#btnAnulareBeneficiarNou {
+    top: 440px;
+    left: 60px;
+}
+
+#ibDataInceputPlataProgramata, #ibDataSfarsitPlataProgramata {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    color: white;
+    border: 0px;
+}
+
+#ibDataInceputPlataProgramata {
+    top: 120px;
+    left: 525px;
+}
+
+#ibDataSfarsitPlataProgramata {
+    top: 440px;
+    left: 265px;
+}
+
+#cldDataInceputPlataProgramata, #cldDataSfarsitPlataProgramata {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+}
+
+#cldDataInceputPlataProgramata {
+    top: 120px;
+    left: 550px;
+}
+
+#cldDataSfarsitPlataProgramata {
+    top: 440px;
+    left: 290px;
+}
+
+
+
+#lblCont, #lblDataInceputIstoricCont, #lblLinieIstoricCont, #lblDataSfarsitIstoricCont, #lblTipTranzactieIstoricCont {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#dlCont, #txtDataInceputIstoricCont, #txtDataSfarsitIstoricCont, #dlTipTranzactieIstoricCont {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    color: dimgray;
+}
+
+#lblCont {
+    left: 60px;
+    top: 100px;
+}
+
+#dlCont {
+    left: 60px;
+    top: 125px;
+    width: 300px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 280px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#rblPerioadaCont {
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto;
+    left: 60px;
+    top: 170px;
+}
+
+#lblDataInceputIstoricCont {
+    left: 60px;
+    top: 220px;
+}
+
+#txtDataInceputIstoricCont {
+    left: 60px;
+    top: 250px;
+    width: 110px;
+    pointer-events: none;
+}
+
+#lblLinieIstoricCont {
+    left: 202px;
+    top: 250px;
+}
+
+#lblDataSfarsitIstoricCont {
+    left: 230px;
+    top: 220px;
+}
+
+#txtDataSfarsitIstoricCont {
+    left: 230px;
+    top: 250px;
+    width: 110px;
+    pointer-events: none;
+}
+
+#lblTipTranzactieIstoricCont {
+    left: 60px;
+    top: 300px;
+}
+
+#dlTipTranzactieIstoricCont {
+    left: 60px;
+    top: 330px;
+    width: 130px;
+    -webkit-appearance: none;
+    background: url(../Media/Second_Page/arrow.png) 110px center no-repeat;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-size: 15px;
+}
+
+#ibDataInceputIstoricCont, #ibDataSfarsitIstoricCont {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    color: white;
+    border: 0px;
+}
+
+#ibDataInceputIstoricCont {
+    left: 175px;
+    top: 250px;
+}
+
+#ibDataSfarsitIstoricCont {
+    left: 345px;
+    top: 250px;
+}
+
+#cldDataInceputIstoricCont, #cldDataSfarsitIstoricCont {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+}
+
+#cldDataInceputIstoricCont {
+    left: 200px;
+    top: 250px;
+    z-index: 950;
+}
+
+#cldDataSfarsitIstoricCont {
+    left: 370px;
+    top: 250px;
+    z-index: 950;
+}
+
+#btnVizualizareTranzactiiIstoricCont {
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+    top: 330px;
+    left: 230px;
+}
+
+#btnExportPdfIstoricCont {
+    border-radius: 10px;
+    width: 130px;
+    height: 25px;
+    top: 100px;
+    left: 60%;
+    position: relative;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#lblEroareIstoricCont {
+    left: 230px;
+    top: 300px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#lblListaTranzactiiIstoricCont {
+    position: absolute;
+    top: 80px;
+    left: 38%;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#gvListaTranzactiiIstoricCont {
+    position: relative;
+    top: 100px;
+    left: 38%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: Roboto;
+    min-width: 620px;
+    border-radius: 11px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#lblTipImprumut, #lblTipDobanda, #lblTipRata, #lblDurataImprumut, #lblDataContractare, #lblDataScadenta, #lblVenit, #lblSumaMaxima, #lblSumaImprumut, #lblAsigurareSanatate, #lblContPlatitor {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#txtDurataImprumut, #txtDataContractare, #txtDataScadenta, #txtVenit, #txtSumaMaxima, #txtSumaImprumut, #txtContPlatitor {
+    position: absolute;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 160px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 1);
+    color: dimgray;
+}
+
+
+#lblTipImprumut {
+    top: 90px;
+    left: 60px;
+}
+
+#rblTipImprumut {
+    top: 120px;
+    left: 60px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+#lblTipDobanda {
+    top: 90px;
+    left: 260px;
+}
+
+#rblTipDobanda {
+    top: 120px;
+    left: 260px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+#lblTipRata {
+    top: 90px;
+    left: 460px;
+}
+
+#rblTipRata {
+    top: 120px;
+    left: 460px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+#lblDurataImprumut {
+    top: 200px;
+    left: 60px;
+}
+
+#txtDurataImprumut {
+    top: 230px;
+    left: 60px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#lblDataContractare {
+    top: 200px;
+    left: 260px;
+}
+
+#txtDataContractare {
+    top: 230px;
+    left: 260px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#lblDataScadenta {
+    top: 200px;
+    left: 460px;
+}
+
+#txtDataScadenta {
+    top: 230px;
+    left: 460px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#lblVenit {
+    top: 280px;
+    left: 60px;
+}
+
+#txtVenit {
+    top: 310px;
+    left: 60px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#lblSumaMaxima {
+    top: 280px;
+    left: 260px;
+}
+
+#txtSumaMaxima {
+    top: 310px;
+    left: 260px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#lblSumaImprumut {
+    top: 280px;
+    left: 460px;
+}
+
+#txtSumaImprumut {
+    top: 310px;
+    left: 460px;
+}
+
+#lblAsigurareSanatate {
+    top: 360px;
+    left: 60px;
+}
+
+#rblAsigurareSanatate {
+    top: 395px;
+    left: 60px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+#lblContPlatitor {
+    top: 360px;
+    left: 260px;
+}
+
+#txtContPlatitor {
+    top: 390px;
+    left: 260px;
+    width: 360px;
+    pointer-events: none;
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#btnCresteDurata, #btnScadeDurata {
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+#btnCresteDurata {
+    top: 233px;
+    left: 200px;
+    outline-width: 0;
+    background: url(../Media/Second_Page/Icons/right_1.png) center no-repeat;
+    background-color: transparent;
+    background-size: 15px;
+    color: white;
+    border: 0px;
+}
+
+#btnScadeDurata {
+    top: 233px;
+    left: 65px;
+    outline-width: 0;
+    background: url(../Media/Second_Page/Icons/left_1.png) center no-repeat;
+    background-color: transparent;
+    background-size: 15px;
+    color: white;
+    border: 0px;
+}
+
+#btnContractareImprumut, #btnAnulareImprumut, #btnScadentarImprumut {
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    font-weight: 400;
+    font-family: Roboto;
+    outline-width: 0;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 0.2);
+    background-color: #71838C;
+    color: white;
+    border: 0px;
+}
+
+#btnContractareImprumut {
+    top: 440px;
+    left: 260px;
+}
+
+#btnAnulareImprumut {
+    top: 440px;
+    left: 460px;
+}
+
+#btnScadentarImprumut {
+    top: 440px;
+    left: 60px;
+    background-color: #2D496A;
+}
+
+#lblEroareImprumut {
+    top: 420px;
+    left: 275px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+#lblEroareSuma {
+    top: 420px;
+    left: 290px;
+    position: absolute;
+    font-family: Roboto;
+    font-size: 12px;
+    color: red;
+}
+
+
+
+#lblDetaliiImprumut {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#lblIBANCredit, #lblTipCredit, #lblSumaRambursata, #lblDataContractareDetalii, #lblTipRataDetalii {
+    position: absolute;
+    left: 60px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+#lblContPlatitorCredit, #lblValoareCredit, #lblSumaNerambursata, #lblDataScadentaDetalii, #lblTipDobandaDetalii {
+    position: absolute;
+    left: 360px;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+
+#txtIBANCredit, #txtTipCredit, #txtSumaRambursata, #txtDataContractareDetalii, #txtTipRataDetalii {
+    position: absolute;
+    left: 60px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 210px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    pointer-events: none;
+    color: dimgray;
+}
+
+#txtContPlatitorCredit, #txtValoareCredit, #txtSumaNerambursata, #txtDataScadentaDetalii, #txtTipDobandaDetalii {
+    position: absolute;
+    left: 360px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 210px;
+    height: 22px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 0.7);
+    pointer-events: none;
+    color: dimgray;
+}
+
+#lblIBANCredit {
+    top: 90px;
+}
+
+#txtIBANCredit {
+    top: 120px;
+}
+
+#lblContPlatitorCredit {
+    top: 90px;
+}
+
+#txtContPlatitorCredit {
+    top: 120px;
+}
+
+#lblTipCredit {
+    top: 160px;
+}
+
+#txtTipCredit {
+    top: 190px;
+}
+
+#lblValoareCredit {
+    top: 160px;
+}
+
+#txtValoareCredit {
+    top: 190px;
+}
+
+#lblSumaRambursata {
+    top: 230px;
+}
+
+#txtSumaRambursata {
+    top: 250px;
+}
+
+#lblSumaNerambursata {
+    top: 230px;
+}
+
+#txtSumaNerambursata {
+    top: 250px;
+}
+
+#lblDataContractareDetalii {
+    top: 300px;
+}
+
+#txtDataContractareDetalii {
+    top: 330px;
+}
+
+#lblDataScadentaDetalii {
+    top: 300px;
+}
+
+#txtDataScadentaDetalii {
+    top: 330px;
+}
+
+#lblTipRataDetalii {
+    top: 370px;
+}
+
+#txtTipRataDetalii {
+    top: 400px;
+}
+
+#lblTipDobandaDetalii {
+    top: 370px;
+}
+
+#txtTipDobandaDetalii {
+    top: 400px;
+}
+
+#diagramaStatistici, #diagramaVenitCheltuieli, #s1 {
+    top: 190px;
+    position: relative;
+}
+
+#rblOptiuniStatistica {
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto;
+    top: 90px;
+    left: 220px;
+}
+
+#rblPerioadaStatistica {
+    position: absolute;
+    font-size: 12px;
+    font-family: Roboto;
+    top: 132px;
+    left: 220px;
+}
+
+#txtAnStatistica, #dlLunaStatistica {
+    position: absolute;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 20px;
+    width: 100px;
+    height: 18px;
+    text-align: center;
+    border-spacing: 0px;
+    outline-width: 0;
+    font-size: 13px;
+    font-family: Roboto;
+    background-color: rgb(255, 255, 255, 1);
+    color: dimgray;
+}
+
+#txtAnStatistica {
+    top: 133px;
+    left: 420px;
+    pointer-events: none;
+}
+
+#dlLunaStatistica {
+    top: 133px;
+    left: 540px;
+}
